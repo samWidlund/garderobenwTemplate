@@ -1,5 +1,18 @@
+/* font  */
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("font/static/RobotoMono-Regular.ttf")
+}
+
+
+body {
+    font-family: "Roboto Mono" !important;
+}
+
+
+
 img {
-    max-width: 180px;
+    max-width: 150px;
     height: auto;
 }
 
@@ -9,4 +22,18 @@ img {
 
 #infoContainer {
     height: 80vh;
+}
+
+#productImg{
+    border-radius: 10px;
+}
+
+
+/* länkar */
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
