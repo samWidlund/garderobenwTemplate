@@ -9,24 +9,21 @@ body {
     font-family: "Roboto Mono" !important;
 }
 
-
-
-img {
-    max-width: 150px;
-    height: auto;
-}
-
 #footer {
     position: sticky;
 }
 
 #infoContainer {
-    height: 80vh;
 }
 
 #productImg{
-    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 150px;
+    height: auto;
 }
+
+#slideshow {
+} 
 
 
 /* länkar */

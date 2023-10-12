@@ -11,49 +11,80 @@
 </head>
 
 <body>
-    <span class="float-start">
-        <img class="float-start ms-3 pt-3" src="bilder/garderobenlogocut.jpg" alt="garderoben.w logo">
-    </span>
-
-    <div class="container-fluid w-75 border-bottom border-dark border-1 t text-center pt-4 pb-4">
-        <h2>meny | nyheter | kontakt</h2>
+    <div class="row">
+        <div class="col">
+            <div>
+                <img class="float-start ms-3 pt-3" height="100px" src="bilder/garderobenlogocut.jpg" alt="garderoben.w logo">
+            </div>
+    
+            <div class="container-fluid w-75 border-bottom border-dark border-1 t text-center pt-4 pb-4 mt-5">
+               <p>HOME | BRANDS | INFO </p>
+            </div>
+            
+            <div>
+                <p><a href="https://instagram.com/garderoben.w?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><img src="bilder/instagram.svg" class="float-end"height="50px" alt="Instagram logo"></a></p>
+            </div>
+        </div>
     </div>
 
     <div id="infoContainer" class="container-fluid w-50 border-start border-end border-dark border-1 my-3 text-center">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="bilder/arketsskjortor2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="bilder/3arcsmall.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="bilder/armymargielasmall.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       
         <div class="row">
-            <div class="col mt-5 mb-4">
-                <h4> Arc'teryx, Prada, Evisu and more!</h4>
+            <div class="col my-5">
+                <h4>Arc'teryx, Our Legacy, Prada and more!</h4>
             </div>
         </div>
         <div class="row mx-5">
-            <div class="col py-2 px-0">
-                <!-- <h5>Arc'teryx</h5> -->
-                <img id="productImg" class="border border-dark border-1" src="bilder/arcnuclei.jpg" alt="Arcteryx Nuclei Jacket">
-            </div>
-            <div class="col py-2 px-0">
-                <!-- <h5>Prada</h5> -->
-                <img id="productImg" class="border border-dark border-1" src="bilder/pradacrossbody.jpg" alt="Arcteryx Nuclei Jacket">
-            </div>
-            <div class="col py-2 px-0">
-                <!-- <h5>Evisu</h5> -->
-                <img id="productImg" class="border border-dark border-1" src="bilder/evisutshirt.jpg" alt="Evisu T shirt">
-            </div>
-            <div class="col py-2 px-0">
-                <!-- <h5>Stone Island</h5> -->
-                <img id="productImg" class="border border-dark border-1" src="bilder/stoneisland.jpg" alt="Stone Island V-neck">
+            <div class="col mb-5 pb-2">
+                <img id="productImg" src="bilder/arcnuclei.jpg" alt="Arcteryx Nuclei Jacket">
+                <img id="productImg" src="bilder/pradacrossbody.jpg" alt="Arcteryx Nuclei Jacket">
+                <img id="productImg" src="bilder/evisutshirt.jpg" alt="Evisu T shirt">
+                <img id="productImg" src="bilder/oldigital.jpg" alt="Our Legacy Digital Thirdcut">
+                <img id="productImg" src="bilder/samba44.jpg" alt="Our Legacy Digital Thirdcut">
+                <img id="productImg" src="bilder/realtree.jpg" alt="Real Tree Wrangler">
+                <img id="productImg" src="bilder/arcatomred.jpg" alt="Arcteryx Atom">
+                <img id="productImg" src="bilder/armytrainers.jpg" alt="Army Trainers">
+                <img id="productImg" src="bilder/arketjeansshirt.jpg" alt="Arket Jeans Shirt">
+                <img id="productImg" src="bilder/stoneisland.jpg" alt="Stone Island V-neck">
             </div>
         </div>
         <div class="row">
             
         </div>
 
-
     </div>
 
     <footer id="footer" class="w-75 border-1 border-top border-dark text-end mx-auto">
         <a href="mailto:samuel.garderoben@gmail.com">samuel.garderoben@gmail.com</a>
-        <span class="float-start">Copyright © 2023 garderoben.w</span>
+        <span class="float-start">© 2023 garderoben.w</span>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
