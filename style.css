@@ -4,7 +4,6 @@
     src: url("font/static/RobotoMono-Regular.ttf")
 }
 
-
 body {
     font-family: "Roboto Mono" !important;
 }
@@ -34,6 +33,18 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    background-color: black;
+}
+
 a:hover {
     text-decoration: underline;
+}
+
+.blackLink a:link {
+    color:black;
+}
+
+.blackLink a:visited {
+    color:black;
 }
