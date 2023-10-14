@@ -15,7 +15,11 @@ body {
 }
 
 #instagramLogo {
-    margin:auto;
+    width: auto;
+}
+
+#logoSize {
+    width: auto;
 }
 
 #productImg{
@@ -42,10 +46,54 @@ a:hover {
     text-decoration: underline;
 }
 
-.blackLink a:link {
+.menuLink a:link {
     color:black;
 }
 
-.blackLink a:visited {
+.menuLink a:visited {
     color:black;
 }
+
+/* Responive */
+
+@media screen and (max-width: 750px) {
+    #logoSize {
+        height: 80px;
+    }
+
+    #instagramLogo {
+        height: 40px;
+    }
+    
+    .menuLink {
+        font-size: 12px;
+    }
+    }
+
+@media screen and (max-width: 750px) {
+    #logoSize {
+        height: 80px;
+    }
+
+    #instagramLogo {
+        height: 40px;
+    }
+    
+    .menuLink {
+        font-size: 12px;
+    }
+    }
+
+@media screen and (max-width: 450px) {
+    
+    .menuLink {
+        font-size: 7px;
+    }
+    }
+
+@media screen and (max-width: 400px) {
+
+    .menuLink {
+        font-size: 5px;
+    }
+    }
