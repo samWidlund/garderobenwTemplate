@@ -28,6 +28,11 @@ body {
     height: auto;
 }
 
+#brandsResponsive {
+    text-align: right;
+    /* color: transparent; */
+}
+
 footer {
     background-color: white;
     position: sticky;
@@ -55,6 +60,13 @@ a:hover {
 }
 
 /* Responive */
+@media screen and (max-width:1051px) {
+    #brandsResponsive {
+        margin-top: 3vh;
+        text-align: center;
+    }
+
+}
 
 @media screen and (max-width: 750px) {
     #logoSize {
@@ -70,30 +82,34 @@ a:hover {
     }
     }
 
-@media screen and (max-width: 750px) {
-    #logoSize {
-        height: 80px;
-    }
-
-    #instagramLogo {
-        height: 40px;
-    }
-    
-    .menuLink {
-        font-size: 12px;
+@media screen and (max-width: 650px) {
+    #aboutText{
+        font-size:15px;
     }
     }
 
 @media screen and (max-width: 450px) {
-    
     .menuLink {
         font-size: 7px;
+    }
+
+    #brandsResponsive {
+        font-size: 20px;
+        margin-top: 3vh;
+        text-align: center;
+    }
+
+    #aboutText{
+        font-size:13px;
     }
     }
 
 @media screen and (max-width: 400px) {
-
     .menuLink {
         font-size: 5px;
+    }
+
+    #aboutText{
+        font-size:10px;
     }
     }
